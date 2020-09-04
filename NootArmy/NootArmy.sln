@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NootArmy", "NootArmy.csproj", "{A0466829-9A97-45C4-ADEE-61506B10DEAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0466829-9A97-45C4-ADEE-61506B10DEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0466829-9A97-45C4-ADEE-61506B10DEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0466829-9A97-45C4-ADEE-61506B10DEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0466829-9A97-45C4-ADEE-61506B10DEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40FFEE28-88B4-4AA0-845D-40293EE33917}
+	EndGlobalSection
+EndGlobal
