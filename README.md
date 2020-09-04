@@ -7,4 +7,4 @@ Killing a small noodlefly will result in twenty angry big noodleflys heading tow
 Special thanks to LeeMoriya for helping me figure out how to spawn creatures in rooms adjacent to the player.
 
 ## Download
-https://github.com/Woodensponge/NootArmy/releases/tag/1.0
+https://github.com/Woodensponge/NootArmy/releases/
