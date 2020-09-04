@@ -13,7 +13,7 @@ namespace NootArmy
         public NootArmy()
         {
             this.author = "Woodensponge";
-            this.Version = "0.01";
+            this.Version = "1.0";
             this.ModID = "NootArmy";
         }
 
