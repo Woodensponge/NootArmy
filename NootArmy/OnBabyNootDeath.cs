@@ -14,7 +14,7 @@ namespace NootArmy
 
         public static void Patch()
         {
-            On.SmallNeedleWorm.Scream += SmallNeedleWorm_Scream; ;
+            On.SmallNeedleWorm.Scream += SmallNeedleWorm_Scream;
         }
 
         private static void SmallNeedleWorm_Scream(On.SmallNeedleWorm.orig_Scream orig, SmallNeedleWorm self)
