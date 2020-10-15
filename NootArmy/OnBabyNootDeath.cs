@@ -10,8 +10,6 @@ namespace NootArmy
 {
     class OnBabyNootDeath
     {
-        static int numOfKilledNoodles = 0;
-
         public static void Patch()
         {
             On.SmallNeedleWorm.Scream += SmallNeedleWorm_Scream;
@@ -24,8 +22,6 @@ namespace NootArmy
             Creature creature = self.ClosestCreature();
             if (creature is Player)
             {
-                numOfKilledNoodles++;
-                Debug.Log("Number of noots dying next to the player: " + numOfKilledNoodles);
                 SendNootArmy();
             }
             orig(self);
@@ -36,7 +32,7 @@ namespace NootArmy
             Game game = new Game();
             //Thank you Lee.
             AbstractRoom adjacentRoom;
-            int numOfNoodles = 18 + (numOfKilledNoodles * 2);
+            int numOfNoodles = 20;
             Debug.Log("RELEASE THE NOOTS!");
             for (int i = 0; i < game.player.room.exitAndDenIndex.Length; i++)
             {
